@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.10.0](https://github.com/aubepkg/aube/compare/aube-resolver-v2.9.0...aube-resolver-v2.10.0) - 2026-11-06
+
+### Fixed
+
+- *(resolver)* exclude vercel >=58.5.1 from no-downgrade by default ([#1910](https://github.com/aubepkg/aube/pull/1910))
+- *(lockfile)* stop writing gitHosted on git and GitHub Packages resolutions ([#1904](https://github.com/aubepkg/aube/pull/1904))
+
 ## [2.9.0](https://github.com/aubepkg/aube/compare/aube-resolver-v2.8.5...aube-resolver-v2.9.0) - 2026-11-01
 
 ### Fixed
